@@ -1,1 +1,1 @@
-A simple website to show my web dev skillz
+A simple website to show-off my web dev skillz
