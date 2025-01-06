@@ -1,4 +1,4 @@
-A simple website to showcase my web dev skillz
+A simple website to showcase my web dev skillz 😉
 
 - 👋 Hi, I’m @therealgaijin
 - 👀 I’m interested in guitars, lifting weights, and running
