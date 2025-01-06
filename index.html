@@ -9,11 +9,22 @@ background-color: black;
 color: white;
 font-family: Courier, monospace;
 margin: 0;
-padding: 20px;
-}
-</style>
+ height: 100vh; /* Full height of the viewport */
+            position: relative; /* Establishes a positioning context */
+        }
+        .bottom-image {
+            position: absolute;
+            bottom: 0; /* Aligns the image to the bottom */
+            left: 50%; /* Centers the image horizontally */
+            transform: translateX(-50%); /* Adjusts for the image width */
+        }
+    </style>
+
 
 </head>
+<body>
+    <img src="apd1_cool_sm.jpg" alt="AlienPigDuck" class="bottom-image">
+</body>
 <pre>
  --------------
  < hello there! >  
@@ -29,4 +40,5 @@ padding: 20px;
 <br>
 The less a statesman amounts to, the more he loves the flag.<br>
 - Kin Hubbard<BR>
+
 </html>
