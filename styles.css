@@ -36,7 +36,7 @@ body {
 .top-bar {
     display: flex;
     align-items: center; /* Vertically center items */
-    height: 100px; /* Height of the bar */
+    height: 120px; /* Height of the bar */
     background-color: black;
     color: whitesmoke; /* Text color */
     padding: 0; /* Padding on the sides */
@@ -44,25 +44,9 @@ body {
     z-index: 1; /* Ensure it's above the background image */
 }
 .top-bar img {
-    height: 80px; /* Height of the small image */
-    margin-right: 30px; /* Space between image and link */
-}
+    height: 100px; /* Height of the small image */
+    }
 
-/* Top Bar Link Styles */
-.top-bar a {
-    color: whitesmoke; /* Link color */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Font size for the link */
-    margin-right: 20px; /* Space between links */
-}
-
-.top-bar a:last-child {
-    margin-right: 0; /* No margin for the last link */
-}
-
-.top-bar a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
 
 /* Preformatted Text Styles */
 pre {
