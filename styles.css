@@ -20,22 +20,6 @@
     font-style: italic;
 }
 
-/* Remove default link color and underline */
-a {
-    color: inherit; /* Use the inherited color from the parent */
-    text-decoration: none; /* Remove underline */
-}
-
-/* Add underline on hover */
-a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
-/* Remove color change on visited links */
-a:visited {
-    color: inherit; /* Keep the color the same as the parent */
-}
-
 /* Body Styles */
 body {
     background-color: black; /* Set the background color to black */
