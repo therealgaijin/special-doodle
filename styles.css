@@ -1,0 +1,89 @@
+/* Anonymous Pro font styles */
+.anonymous-pro-regular {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.anonymous-pro-bold {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.anonymous-pro-regular-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+.anonymous-pro-bold-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Remove default link color and underline */
+a {
+    color: inherit; /* Use the inherited color from the parent */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Add underline on hover */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Remove color change on visited links */
+a:visited {
+    color: inherit; /* Keep the color the same as the parent */
+}
+
+/* Body Styles */
+body {
+    background-color: black; /* Set the background color to black */
+    color: whitesmoke; /* Set the text color to white */
+    font-family: 'Anonymous Pro', monospace; /* Use Anonymous Pro font */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding */
+    position: relative; /* Establishes a positioning context */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* Top Bar Styles */
+.top-bar {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    height: 100px; /* Height of the bar */
+    background-color: black;
+    color: whitesmoke; /* Text color */
+    padding: 0; /* Padding on the sides */
+    position: relative; /* Ensure it's above the background */
+    z-index: 1; /* Ensure it's above the background image */
+}
+.top-bar img {
+    height: 80px; /* Height of the small image */
+    margin-right: 30px; /* Space between image and link */
+}
+
+/* Top Bar Link Styles */
+.top-bar a {
+    color: whitesmoke; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Font size for the link */
+    margin-right: 20px; /* Space between links */
+}
+
+.top-bar a:last-child {
+    margin-right: 0; /* No margin for the last link */
+}
+
+.top-bar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Preformatted Text Styles */
+pre {
+    font-family: 'Anonymous Pro', monospace; /* Use Anonymous Pro font */
+    white-space: pre; /* Preserve whitespace */
+    margin-top: 1em; /* Maintain margin */
+    margin-right: 0px; /* Maintain margin */
+}
